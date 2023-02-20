@@ -89,7 +89,7 @@ def synchronizeAllClocks():
 
         time.sleep(5) 
 
-def initiateClockServer(port = 8000):
+def initiateClockServer(port = 8080):
     """
     Initiate clock server / master node
     """
