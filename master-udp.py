@@ -143,9 +143,6 @@ def initiateMasterNode(port = 8080):
 	sync_thread = threading.Thread(target = synchronizeAllClocks) 
 	sync_thread.start() 
 
-
-
-# Driver function 
 if __name__ == '__main__': 
 
 	# Trigger the Master Node Clock 
