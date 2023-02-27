@@ -66,8 +66,6 @@ def initiateSlaveNode(master_port = 8080):
     receive_time_thread = threading.Thread(target = startReceivingTime, args = (slave_client, )) 
     receive_time_thread.start() 
 
-
-# Driver function 
 if __name__ == '__main__': 
 
 	# initialize the Slave / Client 
